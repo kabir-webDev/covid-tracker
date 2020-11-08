@@ -76,7 +76,7 @@ const App = () => {
       <div className="app__left">
         <div className="app__header">
           <h1>COVID-19 Tracker</h1>
-          {/* <FormControl className="app__dropdown">
+          <FormControl className="app__dropdown">
             <Select
               variant="outlined"
               value={country}
@@ -87,9 +87,9 @@ const App = () => {
                 <MenuItem value={country.value}>{country.name}</MenuItem>
               ))}
             </Select>
-          </FormControl> */}
+          </FormControl> 
         </div>
-        {/* <div className="app__stats">
+         <div className="app__stats">
           <InfoBox
             onClick={(e) => setCasesType("cases")}
             title="Coronavirus Cases"
@@ -113,7 +113,7 @@ const App = () => {
             cases={prettyPrintStat(countryInfo.todayDeaths)}
             total={numeral(countryInfo.deaths).format("0.0a")}
           />
-        </div> */}
+        </div> 
         <div className="container">
         <Map
         className="neumorf"
@@ -130,8 +130,8 @@ const App = () => {
           <div className="app__information">
             <h3>Live Cases by Country</h3>
             <Table countries={tableData} />
-            {/* <h3>Worldwide new {casesType}</h3>
-            <LineGraph casesType={casesType} /> */}
+             <h3>Worldwide new {casesType}</h3>
+            <LineGraph casesType={casesType} /> 
           </div>
         </CardContent>
       </Card>
