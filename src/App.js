@@ -14,6 +14,7 @@ import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
 import Map from "./Map";
 import "leaflet/dist/leaflet.css";
+import Fact from "./Fact";
 
 const App = () => {
   const [country, setInputCountry] = useState("worldwide");
@@ -72,6 +73,7 @@ const App = () => {
   };
 
   return (
+    <div>
     <div className="app">
       <div className="app__left">
         <div className="app__header">
@@ -136,6 +138,11 @@ const App = () => {
         </CardContent>
       </Card>
     </div>
+      <div className="puku">
+        <Fact/>
+      </div>
+    </div>
+
   );
 };
 
