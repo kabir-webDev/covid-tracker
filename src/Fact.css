@@ -1,0 +1,39 @@
+.pp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2% 4% 2% 4%;
+}
+.pokam {
+  text-align: center;
+}
+.colors {
+  background-color: tomato;
+  border-radius: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  font-size: 20px !important;
+}
+.pp-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-color: rgba(238, 86, 59, 0.856);
+}
+.tab-rad {
+  border-radius: 15px !important;
+}
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+.neu {
+  /* margin-left: 50px; */
+  /* width: 90vw; */
+  padding: 20px;
+  background: rgb(225, 250, 250);
+  border-radius: 25px;
+  box-shadow: inset -3px -3px 5px #ffffff90, inset 3px 3px 15px #00000090;
+}
