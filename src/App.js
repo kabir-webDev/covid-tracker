@@ -137,10 +137,12 @@ const App = () => {
           </div>
         </CardContent>
       </Card>
+      
     </div>
-      <div className="puku">
-        <Fact/>
+    <div>
+      <h1>Mental Health Section</h1>
       </div>
+        <Fact/>
     </div>
 
   );
