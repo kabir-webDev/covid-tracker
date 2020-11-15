@@ -139,7 +139,7 @@ const App = () => {
       </Card>
       
     </div>
-    <div>
+    <div className="health">
       <h1>Mental Health Section</h1>
       </div>
         <Fact/>

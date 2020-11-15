@@ -12,7 +12,15 @@ body {
   background-color: #f5f6fa;
   padding: 20px;
 }
-
+.health {
+  color: #9b59b6;
+  text-shadow: 2px 2px 4px #f4d03f;
+  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #57a1fa;
+  text-shadow: -8px -8px 12px rgba(255, 255, 255, 0.4),
+    8px 8px 12px rgba(0, 0, 0, 0.08);
+}
 .app__dropdown {
   background-color: white;
 }
