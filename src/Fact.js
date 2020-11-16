@@ -106,61 +106,129 @@ function Fact() {
                 onChangeIndex={handleChangeIndex}
               >
                 <TabPanel value={value} index={0} dir={theme.direction}>
-                  <div className="ment-sec">
+                  <div className="health-sec">
                     <div
                       className="taxting"
                       style={{ fontSize: 20, textAlign: "left" }}
                     >
                       <ol>
                         <li>
-                          The virus that causes COVID-19 is mainly transmitted
+                          Talk with children about COVID-19 as we should spread
+                          awarness.{" "}
                         </li>
-                        through droplets generated when an infected <br />
-                        person coughs, sneezes, or exhales. These droplets are
-                        too heavy <br />
-                        to hang in the air, and quickly <br />
-                        fall on floors or surfaces. You can be <br />
-                        infected by breathing in the virus <br />
-                        if you are within close proximity of someone who <br />
-                        has COVID-19, or by touching a contaminated surface{" "}
-                        <br />
-                        and then your eyes, nose or mouth.
+                        <li>
+                          It is important to make time to talk with children
+                          when they are worried. They need to know they can
+                          express their feelings and ask questions.
+                        </li>
+
+                        <li>
+                          Be aware of what your children see and hear on
+                          television, the radio and online.
+                        </li>
+
+                        <li>
+                          Tell your children that most kids with COVID-19 do not
+                          get very sick, but we can help those who could get
+                          very sick.
+                        </li>
+
+                        <li>
+                          Keep Children Busy with so many interesting things
+                          that they don't stop learning.
+                        </li>
                       </ol>
                     </div>
                     <div className="image-sec">
                       <img
-                        src="https://img.freepik.com/free-vector/many-kids-climbing-up-rope_1308-2794.jpg?size=626&ext=jpg"
+                        src="https://www.netclipart.com/pp/m/1-13986_boss-baby-big-baby-boss.png"
                         alt=""
                       />
                     </div>
                   </div>
                 </TabPanel>
                 <TabPanel value={value} index={1} dir={theme.direction}>
-                  <div style={{ fontSize: 20 }}>
-                    The virus that causes COVID-19 is mainly <br /> transmitted
-                    through droplets generated when an infected <br />
-                    person coughs, sneezes, or exhales. These droplets are too
-                    heavy <br />
-                    to hang in the air, and quickly <br />
-                    fall on floors or surfaces. You can be <br />
-                    infected by breathing in the virus <br />
-                    if you are within close proximity of someone who <br />
-                    has COVID-19, or by touching a contaminated surface <br />
-                    and then your eyes, nose or mouth.
+                  <div className="health-sec">
+                    <div
+                      className="taxting"
+                      style={{ fontSize: 20, textAlign: "left" }}
+                    >
+                      <ol>
+                        <li>
+                          Talk with children about COVID-19 as we should spread
+                          awarness.{" "}
+                        </li>
+                        <li>
+                          It is important to make time to talk with children
+                          when they are worried. They need to know they can
+                          express their feelings and ask questions.
+                        </li>
+
+                        <li>
+                          Be aware of what your children see and hear on
+                          television, the radio and online.
+                        </li>
+
+                        <li>
+                          Tell your children that most kids with COVID-19 do not
+                          get very sick, but we can help those who could get
+                          very sick.
+                        </li>
+
+                        <li>
+                          Keep Children Busy with so many interesting things
+                          that they don't stop learning.
+                        </li>
+                      </ol>
+                    </div>
+                    <div className="image-sec">
+                      <img
+                        src="https://images4.fanpop.com/image/photos/16200000/Joey-Tribbiani-Chandler-Bing-and-Ross-Geller-joey-chandler-and-ross-16243636-598-476.jpg"
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </TabPanel>
                 <TabPanel value={value} index={2} dir={theme.direction}>
-                  <div style={{ fontSize: 20 }}>
-                    The virus that causes COVID-19 is mainly <br /> transmitted
-                    through droplets generated when an infected <br />
-                    person coughs, sneezes, or exhales. These droplets are too
-                    heavy <br />
-                    to hang in the air, and quickly <br />
-                    fall on floors or surfaces. You can be <br />
-                    infected by breathing in the virus <br />
-                    if you are within close proximity of someone who <br />
-                    has COVID-19, or by touching a contaminated surface <br />
-                    and then your eyes, nose or mouth.
+                  <div className="health-sec">
+                    <div
+                      className="taxting"
+                      style={{ fontSize: 20, textAlign: "left" }}
+                    >
+                      <ol>
+                        <li>
+                          Talk with children about COVID-19 as we should spread
+                          awarness.{" "}
+                        </li>
+                        <li>
+                          It is important to make time to talk with children
+                          when they are worried. They need to know they can
+                          express their feelings and ask questions.
+                        </li>
+
+                        <li>
+                          Be aware of what your children see and hear on
+                          television, the radio and online.
+                        </li>
+
+                        <li>
+                          Tell your children that most kids with COVID-19 do not
+                          get very sick, but we can help those who could get
+                          very sick.
+                        </li>
+
+                        <li>
+                          Keep Children Busy with so many interesting things
+                          that they don't stop learning.
+                        </li>
+                      </ol>
+                    </div>
+                    <div className="image-sec">
+                      <img
+                        src="https://www.shecos.com/blog/wp-content/uploads/2019/09/walter-white-cosplay.jpg"
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </TabPanel>
               </SwipeableViews>
