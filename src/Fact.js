@@ -6,6 +6,9 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
+import AccessibleIcon from "@material-ui/icons/Accessible";
+import DirectionsRunIcon from "@material-ui/icons/DirectionsRun";
+import AirlineSeatFlatIcon from "@material-ui/icons/AirlineSeatFlat";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 
@@ -80,16 +83,19 @@ function Fact() {
                   <Tab
                     style={{ color: "#8E44AD", fontWeight: 600 }}
                     label="Kids Corner"
+                    icon={<AirlineSeatFlatIcon />}
                     {...a11yProps(0)}
                   />
                   <Tab
                     style={{ color: "#8E44AD", fontWeight: 600 }}
                     label="Youth Power"
+                    icon={<DirectionsRunIcon />}
                     {...a11yProps(1)}
                   />
                   <Tab
                     style={{ color: "#8E44AD", fontWeight: 600 }}
-                    label="Aged"
+                    icon={<AccessibleIcon />}
+                    label="Aged Person"
                     {...a11yProps(2)}
                   />
                 </Tabs>
@@ -100,17 +106,33 @@ function Fact() {
                 onChangeIndex={handleChangeIndex}
               >
                 <TabPanel value={value} index={0} dir={theme.direction}>
-                  <div style={{ fontSize: 20 }}>
-                    The virus that causes COVID-19 is mainly <br /> transmitted
-                    through droplets generated when an infected <br />
-                    person coughs, sneezes, or exhales. These droplets are too
-                    heavy <br />
-                    to hang in the air, and quickly <br />
-                    fall on floors or surfaces. You can be <br />
-                    infected by breathing in the virus <br />
-                    if you are within close proximity of someone who <br />
-                    has COVID-19, or by touching a contaminated surface <br />
-                    and then your eyes, nose or mouth.
+                  <div className="ment-sec">
+                    <div
+                      className="taxting"
+                      style={{ fontSize: 20, textAlign: "left" }}
+                    >
+                      <ol>
+                        <li>
+                          The virus that causes COVID-19 is mainly transmitted
+                        </li>
+                        through droplets generated when an infected <br />
+                        person coughs, sneezes, or exhales. These droplets are
+                        too heavy <br />
+                        to hang in the air, and quickly <br />
+                        fall on floors or surfaces. You can be <br />
+                        infected by breathing in the virus <br />
+                        if you are within close proximity of someone who <br />
+                        has COVID-19, or by touching a contaminated surface{" "}
+                        <br />
+                        and then your eyes, nose or mouth.
+                      </ol>
+                    </div>
+                    <div className="image-sec">
+                      <img
+                        src="https://img.freepik.com/free-vector/many-kids-climbing-up-rope_1308-2794.jpg?size=626&ext=jpg"
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </TabPanel>
                 <TabPanel value={value} index={1} dir={theme.direction}>
